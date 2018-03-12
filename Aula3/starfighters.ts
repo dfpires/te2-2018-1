@@ -1,10 +1,10 @@
 import {Spacecraft, Containership} from './base-ships'
 
-export class MillenniumFalcon extends Spacecraft implements Containership{
+ class MillenniumFalcon extends Spacecraft implements Containership{
   cargoContainer: number
   constructor(){
     super('hyperdrive')
-    this.cargoContainer = 2
+    this.cargoContainer = 3
   }
   jumpIntoHyperspace(){
     if (Math.random() >= 0.5){
@@ -15,3 +15,4 @@ export class MillenniumFalcon extends Spacecraft implements Containership{
     }
   }
 }
+export{MillenniumFalcon}

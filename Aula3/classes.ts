@@ -8,6 +8,7 @@ import {MillenniumFalcon} from './starfighters'
 
 let ship = new Spacecraft('hyperdrive');
 ship.jumpIntoHyperspace();
+// Entering hyperspace with hyperdrive
 
 let falcon = new MillenniumFalcon();
 falcon.jumpIntoHyperspace();
